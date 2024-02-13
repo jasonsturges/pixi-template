@@ -36,6 +36,6 @@ bunny.x = app.screen.width / 2;
 bunny.y = app.screen.height / 2;
 viewport.addChild(bunny);
 
-app.ticker.add(() => {
-  bunny.rotation += 0.1 * app.ticker.deltaTime;
+app.ticker.add((delta: number) => {
+  bunny.rotation += 0.1 * delta;
 });
