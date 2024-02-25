@@ -1,6 +1,11 @@
 {
   "name": "pixi-template",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Pixi.js template with modern tooling",
+  "author": "Jason Sturges <jason@jsonsturges.com> (https://jasonsturges.com)",
+  "homepage": "",
+  "repository": "github:jasonsturges/pixi-template",
+  "license": "ISC",
   "type": "module",
   "scripts": {
     "dev": "vite --open",
